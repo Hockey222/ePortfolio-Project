@@ -97,6 +97,7 @@ nav {
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+  
 }
 .about-me__picture--mask {
   width: 100px;
@@ -125,7 +126,10 @@ nav {
   padding: 0 16px;
 }
 .about-me__img--container {
- align-items: flex-start;
+
+ display: flex;
+  flex: 1;
+  align-items: center;
 }
 .about-me__img {
   width: 100%;
