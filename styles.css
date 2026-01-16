@@ -85,8 +85,9 @@ nav {
   flex-direction: column;
 }
 .about-me__info {
-display: flex;
-  align-items: flex-start;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
 }
 
 .about-me__info--container {
