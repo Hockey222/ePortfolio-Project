@@ -415,11 +415,11 @@ footer {
   transform: translateX(60px);
   opacity: 1;
 }
-}
-@media (min-width: 1025px) {
+
+@media (min-width: 1025px) 
   .about-me__picture--mask {
     --img-pos-y: 45%;
-    --img-scale: 1.02;
+    --img-scale:1.02;
   }
 
 /* Small Phones, tablets. large smartphones */
@@ -437,7 +437,7 @@ footer {
     width: calc(100% / 3);
   }
   .project__description--para {
-    font-soze: 14px;
+    font-size: 14px;
   }
   .project__description {
     left: 30px;
